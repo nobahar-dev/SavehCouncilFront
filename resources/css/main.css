@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'iranSansRegular';
+    src: url('../font/sans_regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'iranSansLight';
+    src: url('../font/sans_light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'iranSansBold';
+    src: url('../font/sans_bold.woff2') format('woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'iranSansRegular';
+    font-size: 14px;
+    background-color: #F7F8F6;
+}
