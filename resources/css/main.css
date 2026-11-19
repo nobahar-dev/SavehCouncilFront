@@ -19,6 +19,82 @@ html {
 
 body {
     font-family: 'iranSansRegular';
-    font-size: 14px;
+    font-size: 15px;
     background-color: #F7F8F6;
 }
+
+/* index page styles */
+.search-form input {
+    width: 250px;
+    border-radius: 10px;
+    border: .5px solid #d6d6d6;
+    padding: 6px 10px;
+}
+.bi-search {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-image:
+        linear-gradient(
+            rgba(10, 25, 80, 0.85),
+            rgba(10, 25, 80, 0.85)
+        ),
+        url('../img/header_sardaran.JPG');
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 84%,
+        0 100%
+    );
+    border-bottom-left-radius: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-slider {
+    width: 70%;
+}
+
+.slider-img-wrapper {
+    width: 800px;
+}
+
+.slider-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 4px solid #00f5d3!important;
+}
+
+.slider-text-wrapper .slider-title {
+    color: #FFF;
+    font-family: 'iranSansBold';
+    font-size: 20px;
+}
+
+.slider-text-wrapper .slider-content {
+    color: #cacaca;
+    font-family: 'iranSansRegular';
+    font-size: 16px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.nav-link-item {
+    width: 120px;
+    background: none!important;
+}
+
+.nav-link-item img {
+    border-radius: 100%;
+}
+
+.nav-link-item.active img {
+    border: 3px solid #00f5d3!important;
+}
+/* index page styles */
