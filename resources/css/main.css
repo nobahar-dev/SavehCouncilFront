@@ -24,6 +24,7 @@ body {
 }
 
 /* index page styles */
+/* navbar styles */
 .search-form input {
     width: 250px;
     border-radius: 10px;
@@ -35,7 +36,9 @@ body {
     top: 9px;
     left: 15px;
 }
+/* end of navbar */
 
+/* header slider */
 .header {
     width: 100%;
     height: 700px;
@@ -97,4 +100,172 @@ body {
 .nav-link-item.active img {
     border: 3px solid #00f5d3!important;
 }
+/* end of header slider */
+
+/* last news section */
+
+/* section title */
+.section-title p {
+    font-family: 'iranSansBold';
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: #122154;
+}
+
+.section-title p::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #57c3c4;
+    border-radius: 100%;
+}
+
+.section-title p::before {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #57c3c4;
+    border-radius: 100%;
+}
+
+.section-title i {
+    color: #57c3c4;
+}
+
+.section-title div::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #57c3c4;
+    border-radius: 100%;
+}
+
+.section-title div::before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #57c3c4;
+    border-radius: 100%;
+}
+/* end of section title */
+
+.last-news-item {
+    border-radius: 10px;
+    background-color: #fffefe;
+    border: 2px solid transparent;
+    transition: border .5s ease-in-out;
+}
+
+.last-news-item:hover {
+    border: 2px solid #00f5d3;
+}
+
+.last-news-item img {
+    width: 100%;
+    height: 180px;
+    min-height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.last-news-title {
+    font-family: 'iranSansBold';
+    font-size: 16px;
+    margin: 20px 5px;
+    color: #122154;
+}
+
+.last-news-date span {
+    color: #aaabb0;
+    font-size: 14px;
+    font-family: 'iranSansBold';
+}
+
+.last-news-date i {
+    color: #51acba;
+}
+/* end of last news section */
+
+/* special news */
+.special-news-title {
+    width: 330px;
+    height: 48px;
+    background-color: #e8f3fb;
+    border-radius: 20px;
+}
+
+.sn-title {
+    width: 100%;
+    font-family: 'iranSansBold';
+    font-size: 16px;
+    color: #122154;
+}
+
+.special-news-title .sn-read {
+    width: 100%;
+    background-color: #0495a2;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'iranSansBold';
+    font-size: 16px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 50px;
+}
+
+.special-news-wrapper {
+    background-color: #fffefe;
+    border-radius: 10px;
+    padding: 1px 0;
+}
+
+.s-news-title {
+    font-family: 'iranSansBold';
+    font-size: 14px;
+    color: #122154;
+    transition: color .3s ease-in-out;
+}
+
+.s-news-title:hover {
+    color: #0495a2;
+}
+
+.icon-wrapper i {
+    color: #0495a2;
+}
+
+.more-news-btn {
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #0495a2;
+    transition: all .3s ease-in-out;
+}
+
+.more-news-btn:hover {
+    background-color: #0495a2;
+}
+
+.more-news-btn:hover span,
+.more-news-btn:hover i {
+    color: white;
+}
+
+.more-news-btn span {
+    font-family: 'iranSansBold';
+    font-size: 14px;
+    color: #0495a2;
+}
+
+.more-news-btn i {
+    color: #0495a2;
+}
+/* end of special news */
 /* index page styles */
