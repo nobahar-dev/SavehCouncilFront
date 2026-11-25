@@ -268,4 +268,66 @@ body {
     color: #0495a2;
 }
 /* end of special news */
+
+/* service item section */
+.c-service-item {
+    width: 250px;
+    position: relative;
+    border-radius: 20px;
+    padding: 18px;
+    border: 2px solid #00f5d3;
+    text-decoration: none;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.c-service-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(4, 149, 162, 0.18) !important;
+}
+
+.c-service-item-icon-wrapper {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #defbf6;
+    color: #0495a2;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid #0495a2;
+    box-shadow: 0 0 0 4px #b5d5d6;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c-service-item-title {
+    font-family: 'iranSansBold';
+    font-size: 18px;
+    color: #122154;
+    margin-top: 35px;
+}
+
+.btn-c-service {
+    width: 140px;
+    height: 43px;
+    font-family: 'iranSansBold';
+    font-size: 14px;
+    color: #0495a2;
+    border: 2px solid #0495a2;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.c-service-item:hover .btn-c-service {
+    background-color: #0495a2;
+    color: white;
+}
+/* end of service item section */
 /* index page styles */
