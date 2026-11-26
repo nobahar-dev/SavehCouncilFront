@@ -330,4 +330,155 @@ body {
     color: white;
 }
 /* end of service item section */
+
+/* photo report section */
+.photo-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #e4e4e4;
+    transition: all .3s ease-in-out;
+}
+
+.photo-item:hover {
+    border: 2px solid #00f5d3;
+}
+
+.photo-post-extra {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.photo-post-date {
+    width: 100px;
+    height: 30px;
+    background-color: #01938ce3;
+    border-radius: 10px;
+    color: white;
+    font-family: 'iranSansBold';
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.photo-count {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'iranSansBold';
+    font-size: 14px;
+    background-color: #283b55ce;
+    padding: 0 5px;
+}
+
+.photo-item-img-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.photo-item-img-wrapper img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+.photo-title-wrapper p {
+    font-family: 'iranSansBold';
+    font-size: 16px;
+    color: #122154;
+}
+
+.photo-title-wrapper i {
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: #0495a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.all-photo-report {
+    width: 290px;
+    height: 45px;
+    background-color: none;
+    color: #0495a2;
+    font-family: 'iranSansBold';
+    font-size: 16px;
+    border: 2px solid #0495a2;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.all-photo-report:hover {
+    background-color: #0495a2;
+    color: white;
+}
+/* end of photo report section */
+
+/* commission section */
+.commissions {
+    width: 100%;
+    height: 600px;
+    clip-path: polygon(
+        0 15%,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+    background-image: linear-gradient(
+            rgba(10, 25, 80, 0.75),
+            rgba(10, 25, 80, 0.75)
+        ),url('../img/commisions_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #0495a2;
+    border-top-right-radius: 100px;
+}
+
+.commissions .section-title {
+    padding-top: 90px;
+}
+
+.commissions .section-title p {
+    color: white;
+}
+
+.com-item {
+    background: rgba(18, 33, 84, 0.55);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.com-item i {
+    font-size: 55px;
+    color: #05dfcc;
+    margin-top: 15px;
+}
+
+.com-item p {
+    height: 70px;
+    font-family: 'iranSansBold';
+    font-size: 18px;
+    padding: 0 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+/* end of commissions section */
 /* index page styles */
